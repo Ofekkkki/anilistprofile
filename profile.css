@@ -1,49 +1,163 @@
-.favourites.preview .favourites-wrap:not(.favourites.preview .favourites-wrap.studios) {
-display: grid !important;
-grid-gap: 10px;
-grid-auto-rows: minmax(115px, auto);
-grid-template-columns: repeat(5, 85px);
-justify-content: center;
-padding: 0 !important;
-margin-bottom: 35px !important;
-background: unset !important;
-align-items: end;
-}
-
-
 /* Characters */
 
 /* Akagi */
 
 .favourites.preview a.favourite[href*="character/2934"] {
-    background-image: url(https://i.imgur.com/rsEjE8z.jpeg) !important;
+    background-image: url(https://i.imgur.com/5qec1NI.jpeg) !important;
     grid-column: 1 / 6;
+    width: 500px;  /* Fixed width */
+    height: 115px; /* Adjust the height as needed */
+    background-position: 0px -45px;
+    background-position: -3px center;
 }
 
 /* Dokja */
 
 .favourites.preview a.favourite[href*="character/180887"] {
-    background-image: url(https://i.imgur.com/6tfmFaC.jpeg) !important;
+    background-image: url(https://i.imgur.com/qYHMoMF.jpeg) !important;
     grid-column: 1 / 4;
+    width: 280px;  /* Fixed width */
+    height: 115px; /* Adjust the height as needed */
+    background-size: 120%;
+    background-position: -3px bottom;  
+
 }
 
 /* Baku */
 
 .favourites.preview a.favourite[href*="character/68809"] {
-    background-image: url(https://i.imgur.com/1vvsqOK.jpeg) !important;
+    background-image: url(https://i.imgur.com/IRaltU9.jpeg) !important;
     grid-column: 4 / 6;
+    width: 200px  ;  /* Fixed width */
+    height: 115px; /* Adjust the height as needed */
+    background-size: 130%;  
+    background-position: -40px center;
 }
 
 /* YJH */
 
 .favourites.preview a.favourite[href*="character/180892"] {
-    background-image: url(https://i.imgur.com/fAdMPL4.jpeg) !important;
+    background-image: url(https://i.imgur.com/qYHMoMF.jpeg) !important;
     grid-column: 1 / 3;
+    width: 185px;  /* Fixed width */
+    height: 115px; /* Adjust the height as needed */
+    background-size: 150%;
+    background-position: top
 }
 
 /* Araragi */
 
 .favourites.preview a.favourite[href*="character/22036"] {
-    background-image: url(https://i.imgur.com/6CUPJgS.jpeg) !important;
+    background-image: url(https://i.imgur.com/U12fNWk.jpeg) !important;
     grid-column: 3 / 6;
+    width: 280px;  /* Fixed width */
+    height: 115px; /* Adjust the height as needed */
+}
+
+/* REST OF CHARACTERS */
+
+.favourites.preview a.favourite[href*="character/180901"] {
+    background-image: url(https://i.imgur.com/qOA2AxC.jpeg) !important;
+    background-size: 160%;
+}
+
+.favourites.preview a.favourite[href*="character/25691"] {
+    background-image: url(https://i.imgur.com/1dsPbCN.jpeg) !important;
+    background-size: 195%;
+    background-position:bottom;
+}
+
+.favourites.preview a.favourite[href*="character/347710"] {
+    background-image: url(https://i.imgur.com/Putkxw2.jpeg) !important;
+    background-size: 180%;
+    background-position: center 30%;
+}
+
+.favourites.preview a.favourite[href*="character/89198"] {
+    background-image: url(https://i.imgur.com/gvt7CTa.jpeg) !important;
+}
+
+.favourites.preview a.favourite[href*="character/168690"] {
+    background-image: url(https://i.imgur.com/C80HvGl.jpeg) !important;
+}
+
+.favourites.preview a.favourite[href*="character/23277"] {
+    background-image: url(https://i.imgur.com/cOST4ue.jpeg) !important;
+    background-size: 300%;
+}
+
+.favourites.preview a.favourite[href*="character/60087"] {
+    background-image: url(https://i.imgur.com/5u6PE6D.jpeg) !important;
+    background-size: 200%;
+    background-position: top;
+}
+
+.favourites.preview a.favourite[href*="character/1336"] {
+    background-image: url(https://i.imgur.com/Nz2iHO7.jpeg) !important;
+    background-size: 200%;
+    background-position: center 25%;
+}
+
+.favourites.preview a.favourite[href*="character/2224"] {
+    background-image: url(https://i.imgur.com/KfYg4o1.jpeg) !important;
+}
+
+.favourites.preview a.favourite[href*="character/239532"] {
+    background-image: url(https://i.imgur.com/fVnj3pn.jpeg) !important;
+    background-size: 200%;
+    background-position-y: 30%;
+}
+
+.favourites.preview a.favourite[href*="character/53641"] {
+    background-image: url(https://i.imgur.com/LRqQcsG.jpeg) !important;
+    
+}
+
+.favourites.preview a.favourite[href*="character/3066"] {
+    background-image: url(https://i.imgur.com/BpYtdCc.jpeg) !important;
+    background-size: 200%;
+    background-position-y: 50%;
+}
+
+.favourites.preview a.favourite[href*="character/9024"] {
+    background-image: url(https://i.imgur.com/nMDHFE7.jpeg) !important;
+    background-size: 300%;
+    background-position-y: 65%;
+}
+
+.favourites.preview a.favourite[href*="character/30579"] {
+    background-image: url(https://i.imgur.com/jO0aFDQ.jpeg) !important;
+}
+
+.favourites.preview a.favourite[href*="character/10010"] {
+    background-image: url(https://i.imgur.com/vPJe1nO.png) !important;
+    background-size: 200%;
+    background-position-y: 70%;
+}
+
+.favourites.preview a.favourite[href*="character/35725"] {
+    background-image: url(https://i.imgur.com/3YRhETn.jpeg) !important;
+    background-size: 150%;
+}
+
+.favourites.preview a.favourite[href*="character/144080"] {
+    background-image: url(https://i.imgur.com/XV0UIuh.jpeg) !important;
+    background-size: 200%
+}
+
+.favourites.preview a.favourite[href*="character/121219"] {
+    background-image: url(https://i.imgur.com/fJHTSzE.jpeg) !important;
+}
+
+.favourites.preview a.favourite[href*="character/1086"] {
+    background-image: url(https://i.imgur.com/8MU1glX.jpeg) !important;
+    background-size: 230%;
+    background-position-y: 50%;
+
+}
+
+.favourites.preview a.favourite[href*="character/5578"] {
+    background-image: url(https://i.imgur.com/WIWDyzp.jpeg) !important;
+    background-size: 200%;
+    background-position-y: 5%;
 }
